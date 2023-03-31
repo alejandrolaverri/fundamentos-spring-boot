@@ -1,7 +1,6 @@
 package com.alejandromo.springboot.fundamentos.pojo;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.context.properties.bind.ConstructorBinding;
 
 @ConfigurationProperties(prefix = "user")
 public class UserPojo {
